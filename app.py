@@ -12,6 +12,9 @@ load_dotenv()
 os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
 
 groq_api_key = os.getenv("GROQ_API_KEY")
+host= os.getenv("DB_HOST")
+user = os.getenv("DB_USER")
+password = os.getenv("DB_PASSWORD")
 
 
 
@@ -19,9 +22,9 @@ app = Flask(__name__, template_folder="templates", static_folder="static")
 
 # MySQL Database Configuration
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "Abhishek",
+    "host": host,
+    "user": user,
+    "password": password,
     "database": "chatdb"
 }
 
