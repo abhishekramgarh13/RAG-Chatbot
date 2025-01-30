@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+Flask==3.1.0
+langchain==0.3.17
+langchain_community==0.3.16
+langchain_groq==0.2.4
+langchain_huggingface==0.1.2
+mysql_connector_repackaged==0.3.1
+pytest==8.3.4
+python-dotenv==1.0.1

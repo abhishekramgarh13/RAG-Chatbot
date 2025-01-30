@@ -1,0 +1,83 @@
+/* General Container */
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Chat & History Boxes */
+#chat-box, #history-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fafafa;
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* User & AI Messages */
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* User Messages */
+.user-message {
+    background-color: #d1e7fd;
+    align-self: flex-end;
+}
+
+/* AI Messages */
+.ai-message {
+    background-color: #e8f5e9;
+    align-self: flex-start;
+}
+
+/* Loading Indicator */
+.loading {
+    font-style: italic;
+    color: #888;
+}
+
+/* Input Box & Button */
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

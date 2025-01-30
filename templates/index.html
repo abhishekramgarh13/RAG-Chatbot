@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chat with AI</h1>
+        
+        <div id="chat-box"></div>
+        
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your question..." onkeypress="handleKeyPress(event)" />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+        <h2>Chat History</h2>
+        <div id="history-box"></div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
